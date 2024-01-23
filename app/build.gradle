@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 31
@@ -26,6 +27,9 @@ dependencies {
     implementation 'com.facebook.conceal:conceal:2.0.1@aar'
     implementation 'com.google.android.gms:play-services-ads:20.6.0'
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    implementation 'com.google.firebase:firebase-inappmessaging-display:20.1.2'
+    implementation 'com.google.firebase:firebase-database:20.2.2'
+    implementation 'com.google.firebase:firebase-database-ktx:20.2.2'
 
 
     testImplementation 'junit:junit:4.12'
